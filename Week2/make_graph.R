@@ -13,4 +13,4 @@ cleaned_elections_data |>
   ggplot(aes(x = elected_party)) +
   geom_bar() +
   theme_minimal() + # Make the theme neater
-  labs(x = "Riding", y = "Number of seats") # Make labels more meaningful
+  labs(x = "Party", y = "Number of seats") # Make labels more meaningful
